@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../styles/transfers/index.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title> Nucbanking - Nueva cuenta </title>
+</head>
+<body>
+    <button class="back-button" id="back-button"> < </button>
+    <div class="container">
+        <div class="content">
+            <img src="" alt="">
+            <form id="saved-account__form">
+                <div class="content__user">
+                    <span id="saved-accounts-error"></span>
+                    <p>
+                        <label> CBU* </label>
+                        <input id="cbu" type="text">
+                    </p>
+                    <div id="new-cbu__data"></div>
+                    <p id="fullname__content">
+                        <label> Nombre y apellido* </label>
+                        <input autofocus tabIndex="1" id="fullName" type="text">
+                    </p>
+                    <button id="saved-button" type="submit"></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../../scripts/transfers/savedAccounts.js"></script>
+</body>
+</html>

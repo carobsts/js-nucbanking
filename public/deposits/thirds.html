@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../styles/deposits/thirds.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title> Nucbanking - Cuenta terceros </title>
+</head>
+<body>
+    <button class="back-button" id="back-button"> < </button>
+    <div class="container">
+        <div class="content">
+            <img src="" alt="">
+            <form id="third-account-form">
+                <div class="content__user">
+                    <span id="third-account-error"></span>
+                    <p>
+                        <label> CBU* </label>
+                        <input id="cbu" type="text">
+                    </p>
+                    <p>
+                        <label> Monto* </label>
+                        <input id="amount" type="number">
+                    </p>
+                    <p>
+                        <label> Motivo </label>
+                        <select id="reason" class="own-account-select">
+                            <option> Seleccionar motivo </option>
+                            <option> Opción 1 </option>
+                            <option> Opción 2 </option>
+                        </select>
+                    </p>
+                    <button type="submit"> Depositar </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../../scripts/deposits/thirds.js"></script>
+</body>
+</html>

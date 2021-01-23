@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../styles/transfers/index.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title> Nucbanking - Transferencias </title>
+</head>
+<body>
+    <button class="back-button" id="back-button"> < </button>
+    <div class="container">
+        <div class="content">
+            <img src="" alt="">
+            <form id="transfers-form">
+                <div class="content__user">
+                    <span id="transfers-error"></span>
+                    <p>
+                        <label> Cuenta </label>
+                        <input readonly id="account" type="text">
+                    </p>
+                    <p>
+                        <label> Monto* </label>
+                        <input id="amount" type="number">
+                    </p>
+                    <p>
+                        <label> CBU* </label>
+                        <select id="cbu" class="transfers-select">
+                        </select>
+                        <span id="add-new-cbu"> Agregar un nuevo CBU </span>
+                    </p>
+                    <p>
+                        <label> Motivo </label>
+                        <select id="reason" class="transfers-select">
+                            <option> Seleccionar motivo </option>
+                            <option> Opción 1 </option>
+                            <option> Opción 2 </option>
+                        </select>
+                    </p>
+                    <button type="submit"> Transferir </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../../scripts/transfers/index.js"></script>
+</body>
+</html>

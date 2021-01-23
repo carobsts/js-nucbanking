@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../styles/services/subscribement.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title> Nucbanking - Adhesión </title>
+</head>
+<body>
+    <button class="back-button" id="back-button"> < </button>
+    <div class="container">
+        <div class="content">
+            <img src="" alt="">
+            <form id="subscribement-form">
+                <div class="content__user">
+                    <span id="subscribement-error"></span>
+                    <p>
+                        <label> Nombre del servicio* </label>
+                        <input id="service-name" type="text">
+                    </p>
+                    <p>
+                        <label> Monto a abonar* </label>
+                        <input id="amount" type="number">
+                    </p>
+                    <p>
+                        <label> Vencimiento* </label>
+                        <input id="date" type="date">
+                    </p>
+                    <button type="submit"> Adherir a este servicio </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../../scripts/services/subscribement.js"></script>
+</body>
+</html>
